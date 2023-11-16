@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(224, 247, 255);
+    /* color: white; */
+    font-family:  Helvetica, sans-serif;
+}
+
+main,
+footer{
+    padding: 2rem;
+    text-align: center;
+}
+
+h1,
+h2,
+p,
+div {
+    margin-bottom: 2rem;
+}
+
+button{
+    background-color: aqua;
+    padding: .25rem .5rem;
+    font-size: 1.25rem;
+}
+
+button:hover{
+    background-color: rgb(150, 255, 255);
+}
+
+
+.bg-aliceblue{
+    background-color: aliceblue;
+}
+
+.bg-yellow{
+    background-color: gold;
+}
+
+.bg-cyan{
+    background-color: cyan;
+}
+
+.bg-green{
+    background-color: lime;
+}
+
+.bg-blue{
+    background-color: rgb(154, 154, 255);
+}
